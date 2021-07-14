@@ -9,15 +9,10 @@
 </head>
 <body>
     Teste browser:
-
-    iDevice:
     <script>
-        document.write(iDevice);
-    </script>
-
-    idevice2:
-    <script>
-        document.write(iDevice.toString());
+        if (iDevice) {
+            alert('The iOS device is an ' + iDevice);
+        }
     </script>
 </body>
 </html>
